@@ -1,0 +1,103 @@
+2021-12-10 14:19:47.308 -03 [3524] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1914, 64-bit
+2021-12-10 14:19:47.319 -03 [3524] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-10 14:19:47.319 -03 [3524] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-10 14:19:48.266 -03 [148] LOG:  database system was interrupted; last known up at 2021-12-10 00:07:17 -03
+2021-12-10 14:20:00.734 -03 [148] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-12-10 14:20:00.743 -03 [148] LOG:  redo starts at 0/1637858
+2021-12-10 14:20:00.743 -03 [148] LOG:  invalid record length at 0/1637940: wanted 24, got 0
+2021-12-10 14:20:00.743 -03 [148] LOG:  redo done at 0/1637908
+2021-12-10 14:20:01.566 -03 [3524] LOG:  database system is ready to accept connections
+2021-12-10 14:55:13.792 -03 [3524] LOG:  received fast shutdown request
+2021-12-10 14:55:13.791 -03 [1632] ERROR:  canceling statement due to user request
+2021-12-10 14:55:13.801 -03 [3524] LOG:  aborting any active transactions
+2021-12-10 14:55:13.802 -03 [8384] FATAL:  terminating connection due to administrator command
+2021-12-10 14:55:13.802 -03 [15612] FATAL:  terminating connection due to administrator command
+2021-12-10 14:55:13.802 -03 [15516] FATAL:  terminating connection due to administrator command
+2021-12-10 14:55:13.802 -03 [6896] FATAL:  terminating connection due to administrator command
+2021-12-10 14:55:13.812 -03 [3524] LOG:  background worker "logical replication launcher" (PID 1632) exited with exit code 1
+2021-12-10 14:55:13.857 -03 [9188] LOG:  shutting down
+2021-12-10 14:55:13.986 -03 [3524] LOG:  database system is shut down
+2021-12-13 10:09:19.697 -03 [16672] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1914, 64-bit
+2021-12-13 10:09:19.725 -03 [16672] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-13 10:09:19.726 -03 [16672] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-13 10:09:20.627 -03 [13292] LOG:  database system was interrupted; last known up at 2021-12-10 16:18:05 -03
+2021-12-13 10:09:31.493 -03 [13292] LOG:  database system was not properly shut down; automatic recovery in progress
+2021-12-13 10:09:31.523 -03 [13292] LOG:  redo starts at 0/16AE698
+2021-12-13 10:09:31.523 -03 [13292] LOG:  invalid record length at 0/16AE780: wanted 24, got 0
+2021-12-13 10:09:31.523 -03 [13292] LOG:  redo done at 0/16AE748
+2021-12-13 10:09:34.387 -03 [16672] LOG:  database system is ready to accept connections
+2021-12-13 10:12:36.001 -03 [17292] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:14:57.327 -03 [516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:16:09.005 -03 [16704] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:18:26.340 -03 [4016] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:24:52.484 -03 [4116] ERROR:  canceling statement due to user request
+2021-12-13 10:24:52.486 -03 [16672] LOG:  received fast shutdown request
+2021-12-13 10:24:52.495 -03 [16672] LOG:  aborting any active transactions
+2021-12-13 10:24:52.499 -03 [488] FATAL:  terminating connection due to administrator command
+2021-12-13 10:24:52.517 -03 [16672] LOG:  background worker "logical replication launcher" (PID 4116) exited with exit code 1
+2021-12-13 10:24:52.541 -03 [1912] LOG:  shutting down
+2021-12-13 10:24:52.675 -03 [16672] LOG:  database system is shut down
+2021-12-13 10:31:43.061 -03 [7476] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1914, 64-bit
+2021-12-13 10:31:43.139 -03 [7476] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-13 10:31:43.141 -03 [7476] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-13 10:31:44.252 -03 [18708] LOG:  database system was shut down at 2021-12-13 10:24:52 -03
+2021-12-13 10:31:48.574 -03 [7476] LOG:  database system is ready to accept connections
+2021-12-13 10:33:28.841 -03 [16660] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:35:44.335 -03 [8784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:36:06.716 -03 [6528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:45:59.602 -03 [10408] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:46:04.362 -03 [12548] ERROR:  canceling statement due to user request
+2021-12-13 10:46:04.363 -03 [7476] LOG:  received fast shutdown request
+2021-12-13 10:46:04.374 -03 [7476] LOG:  aborting any active transactions
+2021-12-13 10:46:04.375 -03 [11972] FATAL:  terminating connection due to administrator command
+2021-12-13 10:46:04.395 -03 [7476] LOG:  background worker "logical replication launcher" (PID 12548) exited with exit code 1
+2021-12-13 10:46:04.407 -03 [17432] LOG:  shutting down
+2021-12-13 10:46:04.561 -03 [7476] LOG:  database system is shut down
+2021-12-13 10:49:00.501 -03 [4560] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1914, 64-bit
+2021-12-13 10:49:00.511 -03 [4560] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-13 10:49:00.511 -03 [4560] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-13 10:49:00.738 -03 [3476] LOG:  database system was shut down at 2021-12-13 10:46:04 -03
+2021-12-13 10:49:01.656 -03 [4560] LOG:  database system is ready to accept connections
+2021-12-13 10:54:13.993 -03 [14648] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:55:15.649 -03 [9136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 10:57:05.811 -03 [12028] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 11:14:27.465 -03 [7044] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 11:15:07.082 -03 [7276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 11:15:11.751 -03 [4560] LOG:  received fast shutdown request
+2021-12-13 11:15:11.751 -03 [3444] ERROR:  canceling statement due to user request
+2021-12-13 11:15:11.757 -03 [4560] LOG:  aborting any active transactions
+2021-12-13 11:15:11.757 -03 [9532] FATAL:  terminating connection due to administrator command
+2021-12-13 11:15:11.777 -03 [4560] LOG:  background worker "logical replication launcher" (PID 3444) exited with exit code 1
+2021-12-13 11:15:11.791 -03 [18200] LOG:  shutting down
+2021-12-13 11:15:11.858 -03 [4560] LOG:  database system is shut down
+2021-12-13 11:15:34.756 -03 [2744] LOG:  starting PostgreSQL 12.9, compiled by Visual C++ build 1914, 64-bit
+2021-12-13 11:15:34.766 -03 [2744] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-13 11:15:34.766 -03 [2744] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-13 11:15:35.042 -03 [5916] LOG:  database system was shut down at 2021-12-13 11:15:11 -03
+2021-12-13 11:15:35.972 -03 [2744] LOG:  database system is ready to accept connections
+2021-12-13 11:18:23.023 -03 [13568] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 11:18:33.123 -03 [12896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 11:24:33.684 -03 [15768] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2021-12-13 14:10:13.742 -03 [16408] ERROR:  canceling statement due to user request
+2021-12-13 14:10:13.742 -03 [2744] LOG:  received fast shutdown request
+2021-12-13 14:10:13.762 -03 [2744] LOG:  aborting any active transactions
+2021-12-13 14:10:13.763 -03 [17384] FATAL:  terminating connection due to administrator command
+2021-12-13 14:10:13.787 -03 [2744] LOG:  background worker "logical replication launcher" (PID 16408) exited with exit code 1
+2021-12-13 14:10:13.794 -03 [14968] LOG:  shutting down
+2021-12-13 14:10:13.873 -03 [2744] LOG:  database system is shut down
