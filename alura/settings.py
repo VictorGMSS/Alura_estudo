@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'AluraDB',
         'USER': 'postgres',
-        'PASSWORD': 'Vi061199@@@',
+        'PASSWORD': '',
         'HOST': 'localhost'
     }
 }
